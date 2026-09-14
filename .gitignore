@@ -1,0 +1,16 @@
+# Technocore / DID secrets
+seed.txt
+*.seed
+*.key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Windows / editors
+Thumbs.db
+.vscode/
+.idea/
