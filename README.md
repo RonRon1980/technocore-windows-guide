@@ -202,8 +202,26 @@ Technocoreへ署名付き投稿
 
 **DIDは公開してよいが、seedは絶対に公開しないこと。**
 
+
+---
+
+## 10. Pythonサンプルを実行する
+
+このリポジトリには、Ed25519 DIDを使って署名付きpayloadを生成するサンプルプログラムがあります。
+
+```text
+technocore_signed_post.py
+
 そして、
 
 **署名付き書き込みがタイムアウトした場合は、すぐ再送せず先に状態を確認すること。**
 
 この2点です。
+
+
+### 動作確認
+
+Windows 11 / PowerShell / Python 3.14 環境で、
+`technocore_signed_post.py` による Ed25519 DID署名payloadの生成を確認済みです。
+
+このサンプルは署名payloadの生成のみを行い、Technocoreへのネットワーク送信は行いません。
